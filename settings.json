@@ -1,0 +1,124 @@
+{
+    "python.pythonPath": "/Users/smiler/.pyenv/shims/python3",
+    "breadcrumbs.enabled": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "vsnotes.defaultNotePath": "/Users/smiler/MarkdownMemo",
+    "workbench.sideBar.location": "left",
+
+    // extenstion settings
+    "editor.wordWrap": "on",
+    "editor.insertSpaces": true,
+
+    // vim settings
+    //"vim.useCtrlKeys": false,
+    "vim.useSystemClipboard": true, //システムのclipboardにコピー
+    "vim.cmdLineInitialColon": true, // 検索に:を入れる
+    "vim.hlsearch": true,
+    "vim.easymotion": true, // 言わずもがなeasymotion
+    "vim.visualstar": true, // カーソル上にあるワードを"*"で検索
+    //"vim.virtualedit": onemore, //カーソルを行末の１つ先まで
+    "vim.useCtrlKeys": true, // 諸々のctrlキーを使った操作が有効になる
+
+    // cloudformation.ymlの設定
+    // https://qiita.com/yoskeoka/items/6528571a45cd69f93deb
+    "yaml.schemas": {
+        "https://d33vqc0rt9ld30.cloudfront.net/latest/gzip/CloudFormationResourceSpecification.json": [
+            "*.cf.yaml",
+            "*.cf.yml",
+            "cloud*formation/*.yaml",
+            "cloud*formation/*.yml"
+        ]
+    },
+    "yaml.customTags": [
+        "!Ref",
+        "!Sub scalar",
+        "!Sub sequence",
+        "!Join sequence",
+        "!FindInMap sequence",
+        "!GetAtt scalar",
+        "!GetAtt sequence",
+        "!Base64 mapping",
+        "!GetAZs",
+        "!Select scalar",
+        "!Select sequence",
+        "!Split sequence",
+        "!ImportValue",
+        "!Condition",
+        "!Equals sequence",
+        "!And",
+        "!If",
+        "!Not",
+        "!Or"
+    ],
+
+    // 各言語のインデントサイズ
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[css]": {
+        "editor.tabSize": 2,
+    },
+    "[scss]": {
+        "editor.tabSize": 2,
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+    },
+    "[vue]": {
+        "editor.tabSize": 2,
+    },
+    "[yaml]": { "editor.tabSize": 2 },
+    "[json]": {
+    
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[php]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+        "files.encoding": "utf8"
+    },
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "explorer.sortOrder": "type",
+    "window.zoomLevel": -1,
+    "aws.samcli.location": "/Users/smiler/.pyenv/shims/sam",
+    "json.schemas": [
+    ],
+    "blade.format.enable": true,
+    "files.autoGuessEncoding": false,
+    "[vue]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "files.associations": {
+        "*.js": "javascript"
+    },
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+
+    // eslint
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": false,
+    "eslint.packageManager": "npm",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "vscode-icons",
+}
